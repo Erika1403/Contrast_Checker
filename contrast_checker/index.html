@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrast Checker</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <h1>Color Contrast Checker</h1>
+            <div class="sample" id="sample">
+                <p id="sample_txt">Towards better things. Pursuing excellence 
+                    is not a destination, but a perpetual journey of growth and 
+                    the unyielding quest for improvement. <br/><br/>BSCS - DS 3A Erika Carpio</p>
+                
+            </div>
+            <div class="color-input">
+                <div>
+                    <h5>Text Color</h5>
+                    <label>
+                        <input type="color" id="cp1" value="#ffffff">
+                        <input type="text" id="txt1" value="#ffffff" maxlength="7">
+                    </label>
+                </div>
+                <div>
+                    <h5>Background Color</h5>
+                    <label>
+    
+                        <input type="color" id="cp2" value="#000000">
+                        <input type="text" id="txt2" value="#000000" maxlength="7">
+                    </label>
+                </div>       
+            </div>
+            <h3 id="subtitle">Contrast Ratio</h3>
+            <h2 id="result">Super</h2>
+            <button class="custom-btn btn-1" id="checkbtn">Check</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
